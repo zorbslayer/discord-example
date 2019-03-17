@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '/help') {
+    	message.reply('Welcome to Discord Trade!\nThis server simulates trading skins so you don't have to waste money!');
   	}
 });
 
